@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-display))
+ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf-sm8150)
 
 ifneq ($(TARGET_DISABLE_DISPLAY),true)
 sdm-libs := sdm/libs
